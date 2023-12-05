@@ -1,0 +1,6 @@
+
+apply from: "$buildGradlePath/build-demo.gradle"
+dependencies {
+    implementation project(':screenadapt')
+}
+
